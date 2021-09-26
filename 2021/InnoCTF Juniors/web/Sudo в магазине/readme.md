@@ -8,8 +8,14 @@ _https://webshop.hackforces.com_
 
 ### Solve
 
+![start.png](start.png)
+
 Перед нами всё тот же сайт, теперь нам нужно зайти под суперпользователем - админом.
 Пытаемся перейти на _https://webshop.hackforces.com/admin/_, но нас редиректит на главную страницу, значит стоит какая-то проверка.
 
+![token.png](token.png)
+
 Проверяем куки и видим какой-то token, в нём находится хеш md5 от числа 13, предполагаем, что это id пользователя и подставляем хеш от 0 (cfcd208495d565ef66e7dff9f98764da). 
 У нас появляется доступ в _https://webshop.hackforces.com/admin/_ и мы получаем флаг: CTF{CeQiguno9G1BvaCl}
+
+![flag.png](flag.png)
