@@ -1,13 +1,22 @@
 # Life in the trash - 20
 _Сможешь найти флаг в куче мусора? Не забывай про формат. Да пребудет с тобой grep!_
 
-[t.txt](t.txt)
+_[t.txt](t.txt)_
 
 ### Solution
-Попробуем выполнить `grep t.txt CTF{`. Безрезультатно.
+Попробуем искать по известному формату флага:
+
+```commandline
+grep t.txt CTF{
+```
+
+Безрезультатно
 
 А что если флаг перевёрнут?
 
-Пробуем `grep {FTC t.txt | rev`.
+Пробуем:
+```commandline
+grep {FTC t.txt | rev
+```
 
-Получаем флаг: `CTF{+PX{FZSj_{/H@N@}-;o8wfxC]5Fq~L!}`
+Находим флаг: `CTF{+PX{FZSj_{/H@N@}-;o8wfxC]5Fq~L!}`
