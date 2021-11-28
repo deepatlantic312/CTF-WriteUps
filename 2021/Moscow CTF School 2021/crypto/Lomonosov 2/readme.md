@@ -1,6 +1,8 @@
 # Lomonosov 2
 _У нас в МГУ есть суперкомпьютер, и мы с его помощью кое-что зашифровали._
+
 [encrypt.py](encrypt.py)
+
 [output.txt](output.txt)
 
 ### Решение
