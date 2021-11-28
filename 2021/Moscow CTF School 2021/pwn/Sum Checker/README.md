@@ -23,6 +23,8 @@ c.recvuntil(':')
 c.sendline(bytes(chr(257).encode()))
 flag = c.recvuntil('}').decode()
 print(flag)
+```
+
 
 `
 Flag: MSKCTF{pr3d3f1n3d_c0n$t4nt$_pai8eege2a}
